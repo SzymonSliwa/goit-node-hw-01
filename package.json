@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.6",
+    "readline": "^1.3.0"
+  },
+  "name": "goit-node-hw-01",
+  "main": "index.js",
+  "description": "CLI application",
+  "author": "Szymon Śliwa",
+  "license": "ISC"
+}
